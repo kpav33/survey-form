@@ -1,5 +1,6 @@
+/* || GENERAL */
 body {
-    /*background-image: url(background.jpg);*/
+    /*Adds greyish transparent background over the background image*/
     background-image: linear-gradient(
       115deg,
       rgba(90, 90, 116, 0.6),
@@ -12,9 +13,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
+
+/* || HEADER */
 .header {
     text-align: center;
 }
+
+/*  || SURVEY FORM */
 .container {
     background-color: rgba(83, 55, 55, 0.7);
     margin: 0 auto;
@@ -64,6 +69,8 @@ textarea {
     background-color: #314b31;
     cursor: pointer;
 }
+
+/* || RESPONSIVE */
 @media only screen and (max-width: 768px) {
     .container {
         width: 80%;
